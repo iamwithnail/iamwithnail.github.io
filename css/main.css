@@ -1,0 +1,146 @@
+/* overall styling */
+
+
+html, body {
+height: 100%;
+}
+
+body {
+/*	background-color: #c1dff0;
+	color: #272932; old blues; switch to green palette for motherboard img */
+	background-color: #f3fff3;
+	color: #092100;
+	font-family: 'Roboto Mono', ;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+
+li {
+	list-style: none;
+}
+
+nav {
+	float: middle;
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+/* heading & para stylings */
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+	font-size: 42px;
+/*	color: #4d7ea8; */
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+/*	color: #4d7ea8; */
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+/*	color: #4d7ea8; */
+	color: #34ab00;
+	text-align: center;
+}
+
+p {
+	font-family: 'Roboto Mono', ;
+	font-weight: 300;
+	text-align: justify;
+}
+
+a {
+/*	color: #4d7ea8; */
+	color: #34ab00;
+	text-decoration: none;
+}
+
+/* section specific */
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	max-width: 80%;
+}
+
+.header {
+	display: block;
+	margin: 1em auto;
+}
+
+.container {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 5%;
+/*	background-color: #fbfaf8; */
+	opacity: .8;
+	min-height: 100%;
+	width: 90%;
+}
+
+.container ul {
+	padding-left: 0;
+}
+
+#primary {
+	float: left;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#secondary {
+	float: right;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#motherboard {
+	background-image: url("../images/motherboard.png");
+	margin: 2.5% auto;
+	padding: 5%;
+}
+
+.footer {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.nav {
+	display: block;
+	width: 100%;
+}
+
+.nav li {
+	float: left;
+	text-align: center;
+	width: 30%;
+}
+
+.nav li a:hover, a:focus, a:active {
+	color: #f0f5f6;
+	text-decoration: underline;
+}
